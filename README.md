@@ -1,23 +1,19 @@
-# vite-plus-starter
+# pi-tuicr
 
-A starter for creating a Vite Plus project.
+Pi extension adding `/cr`: opens `tuicr`, then puts exported review markdown in Pi's message box.
 
-## Development
-
-- Install dependencies:
+## Install
 
 ```bash
-vp install
+pi install git:github.com/DanteOz/pi-tuicr
 ```
 
-- Run the unit tests:
+Requires `tuicr` on `PATH`.
 
-```bash
-vp test
+## Use
+
+```text
+/cr
 ```
 
-- Build the library:
-
-```bash
-vp pack
-```
+In `tuicr`, add comments, then press `y` or `ZZ`. `q` exits without output.
